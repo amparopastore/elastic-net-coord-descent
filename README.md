@@ -2,7 +2,7 @@
 
 ## Overview
 
-This README provides instructions on how to run the provided program for Programming Assignment 2, Algorithm 1 (vectorized). This assignment focuses on implementing a penalized (regularized) least squares fit of a linear model using elastic net, with the model parameters obtained by coordinate descent. The tuning parameter will be chosen using five-fold cross validation, and the best-fit model parameters will be inferred on the training dataset conditional on an optimal tuning parameter..
+This README provides instructions on how to run the provided program for Programming Assignment 2, Algorithm 1 (vectorized). This assignment focuses on implementing a penalized (regularized) least squares fit of a linear model using elastic net, with the model parameters obtained by coordinate descent. Elastic net will permit you to provide simultaneous parameter shrinkage (tuning parameter 𝜆≥0) and feature selection (tuning parameter 𝛼∈[0,1]). The two tuning parameters 𝜆 and 𝛼 will be chosen using five-fold cross validation, and the best-fit model parameters will be inferred on the training dataset conditional on an optimal pair of tuning parameters.
 
 ## Prerequisites
 
